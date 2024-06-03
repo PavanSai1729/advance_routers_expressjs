@@ -1,18 +1,15 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "00-starting-setup",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
-    "start-server": "node app.js"
+    "start-server": "node app.js",
+    "start": "nodemon app.js"
   },
-  "author": "Maximilian Schwarzmüller",
+  "author": "pavan sai",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.2"
-  },
   "dependencies": {
     "body-parser": "^1.20.2",
     "ejs": "^3.1.10",
@@ -21,5 +18,8 @@
     "mysql2": "^3.10.0",
     "pug": "^3.0.3",
     "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
   }
 }
