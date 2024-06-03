@@ -8,13 +8,13 @@
     "start": "nodemon app.js",
     "start-server": "node app.js"
   },
-  "author": "pavan sai",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.2"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.2",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "express-handlebars": "^7.1.2",
